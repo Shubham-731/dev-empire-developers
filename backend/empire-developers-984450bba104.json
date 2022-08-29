@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "empire-developer",
+  "private_key_id": "984450bba104a61f6916a72e70bf3824fed10c34",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQC6LE9MM0KaOIQW\nEqpQLliVdMkj65y4660HIxRINzBDZxo9cGBXdFBuijMUKvlOTSmT8hy3zh68zpdA\nYisGKAjmbsDimjs4GyK0CliKRHe6NjzpFDp+QZmWMEqeHjzwZC+BmCCD+SQrFk5T\nTKSq0/lTL7Ho3De0VJD868ccamqWZ+3bRHUfL40pOEzmMTGHqNsHKodqc1EnTl6u\nBp2yvK1B1hd8BA1s9xpMeuxnZJBwgC3StJ6BsmY/1vxOnLd/qhcFCVRXrDoWCtgw\nU+Nq1H9s3pgo6cm52B4VX8qXQwSNUKHGAbqkWhdyy2QdPpnQKe8LfbsrswwgIkOM\nqq8SUtZXAgMBAAECggEAAbt80hQzXUpZAaLofnjX7oLDhmKLDEt2dOJg2MUusp8z\nJs7fY/ZF81QKN/ioZjqglZWt/7swHQinw/vF3mJL/DzxQt/gMjGfx+DFbyVGSe92\n70z2uGBgOf4MC7RIqTdSxoLFtq9VpKhUpUDJfXodz/uEd8q+Ip7w1HGrN3qkBZnr\nicuMy7n0wE4UY4NNUAW+2qBcVu5dMcGqg6GY69N7PPze2WBJJWGYaiWTbKgaFUO4\nns9se9rpi07r8cFBT+5s5G+j+Q7KoFTb2CU59O3Cmo43amGJzIDjjKpvtZ+G3E1p\nUTMOugb9rmIbrrqJtVK9eDtqDvRvFEKUKV8y1HqXLQKBgQD7QD1MicCxbysvV8f3\nQcxk+g2FIRzNwWxUy50chdP4VgD+za8VVOkZlO1f8VesmxDCZeW8YBp8TRtLQh98\nsmZeS821q/E9ZfWusBHV/8bSBFnOh1GbXzlTEFX6P3/zKlDgNA7nAiUf06E2dsQ1\nwlrgagTTj+cQSRW4wQDptOQtrQKBgQC9sStuknVxwsw/PYWi8YeTfXTCN2lZ28MA\nLKrmPHtlLLa69wnRZ0sHDVVWWdf3VwWKr5sOXyLEATrrvqzHAJa0GBdGyDwiWNfe\nkTrNnYvzGaycCx7JhIUp8EPL+uPRcOC2MHh9ZtsLnUtQWeoUofH8hYkDuCK5tk8u\nZKoJOdqMkwKBgHTaG6hNKOFc4qjSGp5Ua8tKwJ76F3taShfl2tw5IayN00iuQI+b\nPg43xW6pwCz2sYS3/3DtAWRuOBN4XUyRbCrO9o1XuorjsK/eE22D1+Q1Qc9cAAhS\n8UZAgrwwbEGbnKGplIS76qgytPevpPGbwsg8hqIee0iHtSKIIPSQvM7BAn9xXnGW\no/GNC98F7L7xo2hjvZcKfBN6oNzqPcfl0j/tN8v98absf89XZ6CY+xkXueqV+F2z\nOSiN/C46trqMNM3c1IkUxJcr7+0UF7gNKxt5Lt76Y6sCxTDQ38elIU0G329tc4qP\nZ+mCB3/7hcFgk2kMgsJgdqxKUasBDyiQWwNDAoGBANPMcx0QJFh4NHAJxs3be1iT\nfRjVrp2pW9BTIZptOHe76ExntvM6impGiuSLXFj7TM45CO20xVGqDD013e4/hJro\nddI1nygZVrpz7DRSgJhxobvaAKE6+F0E4rLOsEneGQHRGKJGLsJUmc+tFGa9sZ9W\nlIq7fo4MA7sZC7LaedPC\n-----END PRIVATE KEY-----\n",
+  "client_email": "empire-clients@empire-developer.iam.gserviceaccount.com",
+  "client_id": "106530418563549152269",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/empire-clients%40empire-developer.iam.gserviceaccount.com"
+}

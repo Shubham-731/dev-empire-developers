@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "c583f5c9-9c79-48a8-b2bf-d361ac36a8a5",
+		"name": "Paramantra_Sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Insert",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "paramantra_101",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "paramantra",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "FtzIDMr114Mr0MIM4pr1FALuG6",
+						"type": "text",
+						"description": "Given by Paramantra"
+					},
+					{
+						"key": "ACTION-ON",
+						"value": " K1tE5",
+						"type": "text",
+						"description": "Given by Paramantra"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "phonefax",
+							"value": "8596857489",
+							"description": "Client phine muber.Minimum 10 digit (Mandatory)",
+							"type": "text"
+						},
+						{
+							"key": "rep_id",
+							"value": "empiresupport",
+							"description": "To assign to a particular rep",
+							"type": "text"
+						},
+						{
+							"key": "channel_id",
+							"value": "Website",
+							"description": "Source",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "donald@gmail.com",
+							"description": "Client Email",
+							"type": "text"
+						},
+						{
+							"key": "f_name",
+							"value": "Donald",
+							"description": "Client Name",
+							"type": "text"
+						},
+						{
+							"key": "subject",
+							"value": "Lead from Website",
+							"description": "Subject to identify",
+							"type": "text"
+						},
+						{
+							"key": "queryid",
+							"value": "456456567y57",
+							"description": "Unique id for enquery (Any alphanumeric string)",
+							"type": "text"
+						},
+						{
+							"key": "notes",
+							"value": "I want to know more about this",
+							"description": "Client note",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://cloud.paramantra.com/paramantra/api/data/new/format/json",
+					"protocol": "https",
+					"host": [
+						"cloud",
+						"paramantra",
+						"com"
+					],
+					"path": [
+						"paramantra",
+						"api",
+						"data",
+						"new",
+						"format",
+						"json"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
