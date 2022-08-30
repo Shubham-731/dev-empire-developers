@@ -34,12 +34,11 @@ const Brochure = () => {
         source,
       });
 
-      if (response.status === 200) {
+      console.log(response);
+
+      if (response) {
         setShowSpinner(false);
-        alert("Enquiry submitted successfully!");
-      } else if (response.status === 500) {
-        setShowSpinner(false);
-        alert("Some error occured. Try again!");
+        alert(response.data.msg);
       }
 
       // Clear form inputs

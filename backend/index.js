@@ -5,6 +5,7 @@ const { GoogleSpreadsheet } = require("google-spreadsheet");
 const fs = require("fs");
 const cors = require("cors");
 const crypto = require("crypto");
+const path = require("path");
 require("dotenv/config");
 
 const PORT = process.env.PORT || 5500;
@@ -30,12 +31,12 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.use("/brochures", express.static("brochures"));
-/* app.use(express.static(path.join(__dirname, "../frontend/build")));
+app.use(express.static(path.join(__dirname, "../frontend/build")));
 
 // Serving static files
 app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "../frontend/build", "index.html"));
-}); */
+});
 
 // Enquire route
 app.post("/enquire", async (req, res) => {
@@ -83,9 +84,10 @@ app.post("/enquire", async (req, res) => {
     };
 
     if (crmData.crmStatus === 409) {
-      return res
-        .status(409)
-        .json({ status: "error", msg: "Phone number already registered!" });
+      return res.json({
+        status: "error",
+        msg: "You've already submitted an enquiry!",
+      });
     } else if (crmData.crmStatus === 200) {
       // NODEMAILER
       let transporter = nodemailer.createTransport({
@@ -135,7 +137,7 @@ app.post("/enquire", async (req, res) => {
         .json({ status: "ok", msg: "Enquiry submitted successfully!" });
     }
   } catch (error) {
-    res.status(500).json({
+    res.json({
       status: "error",
       msg: "Internal server error occured. Try again!",
     });
